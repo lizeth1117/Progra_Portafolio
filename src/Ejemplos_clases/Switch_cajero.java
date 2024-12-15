@@ -1,4 +1,4 @@
-package portafolio_programacioni;
+package Ejemplos_clases;
 
 
 import javax.swing.JOptionPane;
