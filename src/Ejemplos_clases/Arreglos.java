@@ -16,11 +16,9 @@ public class Arreglos {
         // arreglos 28/10/24
            Scanner entrada = new Scanner(System.in);
         int[] numeros={1,2,3,4}; 
-        System.out.println(numeros[3]);
         
-        
+        System.out.println(numeros[3]);        
         int nentrada;
-        
         nentrada=Integer.parseInt(JOptionPane.showInputDialog("favor ingresar la cantidad de caracteres"));
         char[] letras=new char[nentrada] ; 
         System.out.println("ingrese los caracteres");
@@ -33,12 +31,5 @@ public class Arreglos {
             System.out.println(letras[i]);
         } 
     
-        System.out.printf("%s%n%s%n%s%n", "1. retiro","2. deposito","3. salir");
-        int num1 = entrada.nextInt();
-        int num2 = entrada.nextInt();
-        System.out.printf("La suma es: %d%n",num1+num2);
-        
-        
-        
     }
 }

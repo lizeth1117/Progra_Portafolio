@@ -53,8 +53,6 @@ public class FuncionesOperaciones {
         System.out.println("3. multiplicacion");
         System.out.println("4. salir");
         op=sc.nextInt() ;
-        
-        
             switch(op){
                 case 1:
                     suma();
@@ -67,14 +65,11 @@ public class FuncionesOperaciones {
                     break;
                 case 4:
                     break;
-                    
                 default:
-                    System.out.println("Opcion invalida");
-                        
+                    System.out.println("Opcion invalida");    
             }
         }
-        while(op!=4); //  regresa al menu 
-        
+        while(op!=4); //  regresa al menu  
     } //FIN DE MAIN
     
 }// FIN DE CLASS
